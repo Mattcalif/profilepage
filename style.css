@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(243, 248, 241);
+    color: black; 
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2{
+    color:#3e6a3a;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+}
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+
+.card-white{
+    background-color: rgba(249, 249, 249, 0);
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 30px 0;
+    box-shadow: 10px 10px 20px rgba(106, 199, 106, 0.31);
+    border: 1px solid #eee4e1; 
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 850px;
+    margin: 10px auto;
+}
+
+img {
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+.btn-vert{
+    background-color: #83e09a;
+    color:#ebf1ed;
+    border-radius: 4px;
+    padding:15px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-vert:hover {
+    background-color: #84c481;
+
+}
+    
+#intro{
+    margin-bottom: 50px;
+}
+
+.list-formations{
+    list-style: none;
+    padding-left: 0;
+    display: inline-flex;
+}
+
+.list-formations div{
+    flex-wrap: wrap;
+}
+
+
+.list-formations img {
+    height: 100px;
+    border-radius: 5px;
+}
+
+.list-formations li{
+    flex-basis: 0;
+    flex-grow: 1;
+
+}
+
+/* body > div > div:nth-child(2) > ul > li:nth-child(1) > div {
+    max-width: 50%;
+} */
+
+.list-experiences{
+    list-style: none;
+    padding-left: 0;
+    text-align: justify;
+}
+
+.list-passions{
+    list-style: none;
+    padding-left: 0;
+    text-align: justify;
+}
+
+.first-div p{
+    text-align: justify;
+}
+
+
+.first-div img{
+    margin: 10px 0;
+}
+
+.list-inline{
+    list-style:none;
+    padding-left: 0px;
+}
+.list-inline li{
+    display: inline;
+}
+
+.list-inline i{
+    font-size: 50px;
+    color: #39920d;
+    letter-spacing: 60px;
+}
+
+
+@media (max-width :660px){
+    .container{
+      width: 900px;
+    }
+    .cards-inline{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  @media (max-width :720px){
+    .container{
+      width: 680px;
+    }
+    .cards-inline{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width :540px){
+    .container{
+      width: 500px;
+    }
+    .cards-inline{
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+  .btn-vert:{
+    text-align:center;
+  }
+
